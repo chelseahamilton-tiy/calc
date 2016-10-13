@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/master.css">
+    <title></title>
+  </head>
+  <body>
+  <forme name=calcform>
+    <div>
+      <div class="keys">
+        <button value="0" onclick="userInput(value)"><span>0</span></button>
+        <button value="1" onclick="userInput(value)"><span>1</span></button>
+        <button value="2" onclick="userInput(value)"><span>2</span></button>
+        <button value="3" onclick="userInput(value)" /><span>3</span></button>
+        <button value="4" onclick="userInput(value)"><span>4</span></button>
+        <button value="5" onclick="userInput(value)"><span>5</span></button>
+        <button value="6" onclick="userInput(value)"><span>6</span></button>
+        <button value="7" onclick="userInput(value)"><span>7</span></button>  <button value="8" onclick="userInput(value)"><span>8</span></button>
+        <button value="9" onclick="userInput(value)"><span>9</span></button>
+        <button value="+" onclick="userInput(value)"><span>+</span></button>
+        <button value="-" onclick="userInput(value)"><span>-</span></button>
+        <button value="/" onclick="userInput(value)"><span>/</span></button>
+        <button value="*" onclick="userInput(value)"><span>*</span></button>
+
+        <button value="%" onclick="userInput(value)"><span>%</span></button>
+
+        <button value="=" onclick="prepCalculate()"><span>=</span></button>
+        <button value="clear" onclick="userInput(clear)"><span>clear</span></button>
+      </div>
+        <tr class="answerBox">   <!--TOP PANEL------>
+          <td colspan="2"><br>
+            <input type="text" maxlength="40" size="30" name="Display"></input>
+          </td>
+        </tr>
+  </div>
+
+
+<script src="JS/scripts.js"></script>
+  </body>
+</html>
